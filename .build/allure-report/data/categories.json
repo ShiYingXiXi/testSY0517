@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.",
+      "children" : [ {
+        "name" : "test_playWright",
+        "uid" : "bf903c9226bd3c80",
+        "parentUid" : "08141f1045ce5a231935ca9fcf7185b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1717667047925,
+          "stop" : 1717667047925,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08141f1045ce5a231935ca9fcf7185b8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

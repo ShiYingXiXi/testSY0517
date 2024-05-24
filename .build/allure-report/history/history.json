@@ -9,12 +9,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd4cc68f09ba7feb",
+      "uid" : "ab14b9271d0478da",
       "status" : "skipped",
       "statusDetails" : "Skipped: async def function and no async plugin installed (see warnings)",
       "time" : {
-        "start" : 1715394945305,
-        "stop" : 1715394945305,
+        "start" : 1717667039760,
+        "stop" : 1717667039760,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b477180c09bd13c524149c9aed8c9f74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b167ffc3f266d479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717667048278,
+        "stop" : 1717667048278,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dc81b87cffcf1dff45de633ad03b643a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf903c9226bd3c80",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.",
+      "time" : {
+        "start" : 1717667047925,
+        "stop" : 1717667047925,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5e8167d6e8bb057bbda991dd25d13bce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfcc8956296f5f54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717667046805,
+        "stop" : 1717667046805,
         "duration" : 0
       }
     } ]
@@ -29,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9945997694cad28",
+      "uid" : "6df993db25a2d0d1",
       "status" : "passed",
       "time" : {
-        "start" : 1715394952782,
-        "stop" : 1715394952782,
-        "duration" : 0
+        "start" : 1717667045567,
+        "stop" : 1717667045568,
+        "duration" : 1
       }
     } ]
   },
@@ -48,12 +106,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2914d698ce6b8846",
+      "uid" : "a55db1aa78881e7d",
       "status" : "passed",
       "time" : {
-        "start" : 1715394947494,
-        "stop" : 1715394952643,
-        "duration" : 5149
+        "start" : 1717667040597,
+        "stop" : 1717667045434,
+        "duration" : 4837
+      }
+    } ]
+  },
+  "fb8aaf42b5baf64439520a33c2539c26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3284f079ca1b8f56",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: async def function and no async plugin installed (see warnings)",
+      "time" : {
+        "start" : 1717667047939,
+        "stop" : 1717667047939,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a109e54338eedd71767ecd460014ac56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d9d3dff541602e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717667046913,
+        "stop" : 1717667047909,
+        "duration" : 996
+      }
+    } ]
+  },
+  "7bbd1aec16562db2c24c976f915dc8d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b08bd78236bc5858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1717667047941,
+        "stop" : 1717667048273,
+        "duration" : 332
       }
     } ]
   },
@@ -67,12 +183,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bcb8cb591bc8dbda",
+      "uid" : "914a868c6ab9acf8",
       "status" : "passed",
       "time" : {
-        "start" : 1715394952891,
-        "stop" : 1715394953960,
-        "duration" : 1069
+        "start" : 1717667045679,
+        "stop" : 1717667046694,
+        "duration" : 1015
       }
     } ]
   }

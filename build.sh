@@ -4,11 +4,15 @@
 TestDir="./testcases"
 ReportDir="./.build/allure-report"
 ResultDir="./.build/allure-results"
+Environment="./.build/environment"
 
-set -xe
+/Users/shiying/PycharmProjects/testSY0517/environment.xml
+
+#set -xe
 
 python main.py "$TestDir" $ResultDir
+cp /Users/shiying/PycharmProjects/testSY0517/environment.xml ReportDir
 
-allure generate --clean -o $ReportDir $ResultDir
-
-#allure generate  -o $ReportDir $ResultDir
+#allure generate --clean -o $ReportDir $ResultDir
+allure generate -o $ReportDir $ResultDir
+#allure serve ./.build/allure-report

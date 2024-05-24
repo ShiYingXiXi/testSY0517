@@ -1,0 +1,30 @@
+<environment>
+    <property>
+        <name>systemVersion</name>
+        <value>win10</value>
+    </property>
+    <property>
+        <name>pythonVersion</name>
+        <value>3.10.0</value>
+    </property>
+    <property>
+        <name>allureVersion</name>
+        <value>2.14.0</value>
+    </property>
+    <property>
+        <name>baseUrl</name>
+        <value>http://xxx.com</value>
+    </property>
+    <property>
+        <name>projectName</name>
+        <value>autotest</value>
+    </property>
+    <property>
+        <name>author</name>
+        <value>blues.C</value>
+    </property>
+    <property>
+        <name>blog</name>
+        <value>https://blog.csdn.net/weixin_48321392?type=blog</value>
+    </property>
+</environment>

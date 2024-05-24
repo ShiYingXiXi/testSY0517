@@ -1,40 +1,100 @@
 [ {
-  "uid" : "c9945997694cad28",
+  "uid" : "6df993db25a2d0d1",
   "name" : "用户登录-预期成功",
   "time" : {
-    "start" : 1715394952782,
-    "stop" : 1715394952782,
-    "duration" : 0
+    "start" : 1717667045567,
+    "stop" : 1717667045568,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fd4cc68f09ba7feb",
+  "uid" : "ab14b9271d0478da",
   "name" : "test_sy",
   "time" : {
-    "start" : 1715394945305,
-    "stop" : 1715394945305,
+    "start" : 1717667039760,
+    "stop" : 1717667039760,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "bcb8cb591bc8dbda",
+  "uid" : "6d9d3dff541602e5",
   "name" : "用户注册-预期成功啦啦啦",
   "time" : {
-    "start" : 1715394952891,
-    "stop" : 1715394953960,
-    "duration" : 1069
+    "start" : 1717667046913,
+    "stop" : 1717667047909,
+    "duration" : 996
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2914d698ce6b8846",
+  "uid" : "a55db1aa78881e7d",
   "name" : "登录预期成功",
   "time" : {
-    "start" : 1715394947494,
-    "stop" : 1715394952643,
-    "duration" : 5149
+    "start" : 1717667040597,
+    "stop" : 1717667045434,
+    "duration" : 4837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3284f079ca1b8f56",
+  "name" : "test_run",
+  "time" : {
+    "start" : 1717667047939,
+    "stop" : 1717667047939,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bf903c9226bd3c80",
+  "name" : "test_playWright",
+  "time" : {
+    "start" : 1717667047925,
+    "stop" : 1717667047925,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b08bd78236bc5858",
+  "name" : "test_run",
+  "time" : {
+    "start" : 1717667047941,
+    "stop" : 1717667048273,
+    "duration" : 332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfcc8956296f5f54",
+  "name" : "用户登录-预期成功",
+  "time" : {
+    "start" : 1717667046805,
+    "stop" : 1717667046805,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b167ffc3f266d479",
+  "name" : "test_rootDir0",
+  "time" : {
+    "start" : 1717667048278,
+    "stop" : 1717667048278,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "914a868c6ab9acf8",
+  "name" : "用户注册-预期成功啦啦啦",
+  "time" : {
+    "start" : 1717667045679,
+    "stop" : 1717667046694,
+    "duration" : 1015
   },
   "status" : "passed",
   "severity" : "normal"
