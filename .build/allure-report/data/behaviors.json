@@ -1,0 +1,69 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test_sy",
+    "uid" : "fd4cc68f09ba7feb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1715394945305,
+      "stop" : 1715394945305,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "登录功能",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "登录预期成功",
+        "uid" : "2914d698ce6b8846",
+        "parentUid" : "fc798277bcb961f4373b3ef634a5b678",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715394947494,
+          "stop" : 1715394952643,
+          "duration" : 5149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      } ],
+      "uid" : "fc798277bcb961f4373b3ef634a5b678"
+    } ],
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b"
+  }, {
+    "name" : "登录注册模块",
+    "children" : [ {
+      "name" : "用户登录-预期成功",
+      "uid" : "c9945997694cad28",
+      "parentUid" : "968fefd8e520e1d220d6503040c7c1c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1715394952782,
+        "stop" : 1715394952782,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "用户注册-预期成功啦啦啦",
+      "uid" : "bcb8cb591bc8dbda",
+      "parentUid" : "968fefd8e520e1d220d6503040c7c1c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1715394952891,
+        "stop" : 1715394953960,
+        "duration" : 1069
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    } ],
+    "uid" : "968fefd8e520e1d220d6503040c7c1c4"
+  } ],
+  "name" : "behaviors"
+}

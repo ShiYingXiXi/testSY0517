@@ -1,0 +1,41 @@
+[ {
+  "uid" : "c9945997694cad28",
+  "name" : "用户登录-预期成功",
+  "time" : {
+    "start" : 1715394952782,
+    "stop" : 1715394952782,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd4cc68f09ba7feb",
+  "name" : "test_sy",
+  "time" : {
+    "start" : 1715394945305,
+    "stop" : 1715394945305,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bcb8cb591bc8dbda",
+  "name" : "用户注册-预期成功啦啦啦",
+  "time" : {
+    "start" : 1715394952891,
+    "stop" : 1715394953960,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2914d698ce6b8846",
+  "name" : "登录预期成功",
+  "time" : {
+    "start" : 1715394947494,
+    "stop" : 1715394952643,
+    "duration" : 5149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

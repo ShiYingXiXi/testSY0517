@@ -1,0 +1,90 @@
+.btn-social.wechat_qrconnect {
+    background-color: #090
+}
+
+body {
+    background: #e5e5e5
+}
+
+#main-outlet {
+    padding: 1em;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    background-color: #fff
+}
+
+.slide {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.slide ul {
+    margin: 5px 0;
+    padding: 0;
+    width: 300%;
+    height: 100%;
+    transition: all .5s
+}
+
+.slide .slide-auto {
+    animation: marginLeft 15s infinite
+}
+
+.slide li {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    list-style: none
+}
+
+.slide li img {
+    width: 100%;
+    height: 100%
+}
+
+@keyframes marginLeft {
+    0%, 28.5% {
+        margin-left: 0
+    }
+    33.3%, 62% {
+        margin-left: -100%
+    }
+    66.7%, 95.2% {
+        margin-left: -200%
+    }
+    100% {
+        margin-left: 0
+    }
+}
+
+section.about.description h2 {
+    visibility: hidden
+}
+
+section.about.description h2:before {
+    content: "关于我们";
+    visibility: visible
+}
+
+section.about.description p {
+    visibility: hidden
+}
+
+section.about.description p:before {
+    content: "测试人社区隶属于测吧（北京）科技有限公司，是一个软件测试爱好者的技术交流社区，主要做：软件测试、软件测试入门、自动化测试、 性能测试、测试开发、接口测试、测试开发培训 、自动化测试培训、 python自动化测试、java自动化测试、测试教程、全栈测试、测试面试题、appium 、selenium 、jmeter、jenkins、 loadrunner、测试平台、 开源测试";
+    visibility: visible
+}
+
+#topic-footer-button-discourse-custom-topic-button {
+    background-color: #f71;
+    color: #fff
+}
+
+#topic-footer-button-discourse-custom-topic-button:hover {
+    background-color: #c2c1c2;
+    color: #fff
+}
+
+/*# sourceMappingURL=desktop_theme_3_2cfb0cc00c48ec0cd46b254c0c450c3351d397f6.css.map?__ws=ceshiren.com */

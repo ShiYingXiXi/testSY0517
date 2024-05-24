@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    background-color: #d2d8dd;
+    padding: 1em;
+    font-size: 10px
+}
+
+footer.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+/*# sourceMappingURL=desktop_theme_19_af89763c34d30790e3337b691b95dc82d6b54903.css.map?__ws=ceshiren.com */

@@ -1,0 +1,283 @@
+{
+  "posts": [
+    {
+      "id": 28833,
+      "name": "热爱夏风",
+      "username": "383093387",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/3/c6cbf5/{size}.png",
+      "created_at": "2021-03-06T07:28:42.888Z",
+      "like_count": 1,
+      "blurb": "# #在真机上运行appium的自动化用例 ，第一次运行安装IO.APPIUM.UIAUTOMATOR2.SERVER 和 IO.APPIUM.UIAUTOMATOR2.SERVER.TEST后，再重复运行，还是要重复安装， 这个...",
+      "post_number": 1,
+      "topic_id": 10527
+    },
+    {
+      "id": 28960,
+      "name": "584427162",
+      "username": "584427162",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/5/3ab097/{size}.png",
+      "created_at": "2021-03-08T03:05:47.004Z",
+      "like_count": 0,
+      "blurb": "...“registerCycle”: 5000, “hubPort”: 4444, “hubHost”: “192.168.247.1”, “hubProtocol”: “http” } } 3、执行 appium --nodeconfig node1.json 成功 image 4、执行代码： image from time import sleep from appium import webdriver...",
+      "post_number": 1,
+      "topic_id": 10551
+    },
+    {
+      "id": 12918,
+      "name": "霍格沃兹测试学院官方",
+      "username": "hogwarts",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/h/ce7236/{size}.png",
+      "created_at": "2020-08-10T07:01:51.756Z",
+      "like_count": 0,
+      "blurb": "Appium in a Nutshell Appium packages appium runs basic checks node version ( &gt; = 5) CLI arguments checks c...",
+      "post_number": 1,
+      "topic_id": 4800
+    },
+    {
+      "id": 2584,
+      "name": "Ashin",
+      "username": "Hogwarts-Ashin",
+      "avatar_template": "/user_avatar/ceshiren.com/hogwarts-ashin/{size}/419_2.png",
+      "created_at": "2020-03-31T06:13:36.148Z",
+      "like_count": 0,
+      "blurb": "转自Appium pro系列文章 Reader kuznietsov.com suggested that we write an article introducing the AppiumServiceBuild...",
+      "post_number": 1,
+      "topic_id": 1269
+    },
+    {
+      "id": 70708,
+      "name": "答疑小助手",
+      "username": "answering_assistant",
+      "avatar_template": "/user_avatar/ceshiren.com/answering_assistant/{size}/43115_2.png",
+      "created_at": "2024-01-06T13:55:59.526Z",
+      "like_count": 0,
+      "blurb": "如果在安装了Appium-Python-Client 3.1.1版本后仍然无法导入 “MobileBy” 模块，可能是因为该模块的命名发生了变化。您可以尝试更改导入语句为以下内容： from appium.webdriver...",
+      "post_number": 1,
+      "topic_id": 29561
+    }
+  ],
+  "topics": [
+    {
+      "id": 10527,
+      "title": "如何解决appium在真机上运行自动化用例会重复安装IO.APPIUM.UIAUTOMATOR2.SERVER 和 IO.APPIUM.UIAUTOMATOR2.SERVER.TEST",
+      "fancy_title": "如何解决appium在真机上运行自动化用例会重复安装IO.APPIUM.UIAUTOMATOR2.SERVER 和 IO.APPIUM.UIAUTOMATOR2.SERVER.TEST",
+      "slug": "topic",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "created_at": "2021-03-06T07:28:42.825Z",
+      "last_posted_at": "2021-03-06T16:48:03.188Z",
+      "bumped": true,
+      "bumped_at": "2021-03-06T16:48:03.188Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "appium"
+      ],
+      "tags_descriptions": {},
+      "category_id": 76,
+      "has_accepted_answer": true
+    },
+    {
+      "id": 10551,
+      "title": "appium使用，从桌面打开appium ，python调用时，没有问题，但是命令行打开appium 调用，就会报错",
+      "fancy_title": "appium使用，从桌面打开appium ，python调用时，没有问题，但是命令行打开appium 调用，就会报错",
+      "slug": "topic",
+      "posts_count": 14,
+      "reply_count": 11,
+      "highest_post_number": 14,
+      "created_at": "2021-03-08T03:05:46.935Z",
+      "last_posted_at": "2022-01-28T07:32:28.508Z",
+      "bumped": true,
+      "bumped_at": "2022-01-28T07:32:28.508Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "appium",
+        "pytest"
+      ],
+      "tags_descriptions": {},
+      "category_id": 76,
+      "has_accepted_answer": false
+    },
+    {
+      "id": 4800,
+      "title": "Appium-appium-packages",
+      "fancy_title": "Appium-appium-packages",
+      "slug": "topic",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "created_at": "2020-08-10T07:01:51.669Z",
+      "last_posted_at": "2020-08-10T07:01:51.756Z",
+      "bumped": true,
+      "bumped_at": "2020-08-10T07:01:51.756Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "appium",
+        "官方文档"
+      ],
+      "tags_descriptions": {},
+      "category_id": 17,
+      "has_accepted_answer": false
+    },
+    {
+      "id": 1269,
+      "title": "Appium pro_71_使用AppiumServiceBuilder以编程方式启动Appium服务器",
+      "fancy_title": "Appium pro_71_使用AppiumServiceBuilder以编程方式启动Appium服务器",
+      "slug": "topic",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "created_at": "2020-03-31T06:13:36.084Z",
+      "last_posted_at": "2020-03-31T06:13:36.148Z",
+      "bumped": true,
+      "bumped_at": "2020-03-31T06:13:36.148Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "category_id": 17,
+      "has_accepted_answer": false
+    },
+    {
+      "id": 29561,
+      "title": "结合上述说明，我已经安装了Appium-Python-Client的3.1.1版本，当我尝试通过from appium.webdriver.common.mobileby import MobileBy导入模块时提示：Unresolved reference 'MobileBy'",
+      "fancy_title": "结合上述说明，我已经安装了Appium-Python-Client的3.1.1版本，当我尝试通过from appium.webdriver.common.mobileby import MobileBy导入模块时提示：Unresolved reference &lsquo;MobileBy&rsquo;",
+      "slug": "topic",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "created_at": "2024-01-06T13:55:59.478Z",
+      "last_posted_at": "2024-01-06T13:55:59.526Z",
+      "bumped": true,
+      "bumped_at": "2024-01-06T13:55:59.526Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "技术交流",
+        "appium"
+      ],
+      "tags_descriptions": {},
+      "category_id": 150,
+      "has_accepted_answer": false
+    }
+  ],
+  "users": [
+    {
+      "id": 3770,
+      "username": "appium",
+      "name": "学习appium",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/a/aeb1de/{size}.png",
+      "custom_data": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 76,
+      "name": "appium",
+      "color": "0088CC",
+      "text_color": "FFFFFF",
+      "slug": "appium",
+      "topic_count": 92,
+      "post_count": 348,
+      "position": 10,
+      "description": null,
+      "description_text": null,
+      "description_excerpt": null,
+      "topic_url": "/t/topic/7079",
+      "read_restricted": false,
+      "permission": null,
+      "parent_category_id": 17,
+      "notification_level": null,
+      "topic_template": null,
+      "has_children": null,
+      "sort_order": null,
+      "sort_ascending": null,
+      "show_subcategory_list": false,
+      "num_featured_topics": 3,
+      "default_view": null,
+      "subcategory_list_style": "rows_with_featured_topics",
+      "default_top_period": "all",
+      "default_list_filter": "all",
+      "minimum_required_tags": 0,
+      "navigate_to_first_post_after_read": false,
+      "uploaded_logo": null,
+      "uploaded_logo_dark": null,
+      "uploaded_background": null
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "appium",
+      "topic_count": 1240,
+      "staff": false,
+      "description": null
+    }
+  ],
+  "groups": [],
+  "grouped_search_result": {
+    "more_posts": true,
+    "more_users": null,
+    "more_categories": null,
+    "term": "Appium",
+    "search_log_id": 410349,
+    "more_full_page_results": null,
+    "can_create_topic": false,
+    "error": null,
+    "post_ids": [
+      28833,
+      28960,
+      12918,
+      2584,
+      70708
+    ],
+    "user_ids": [
+      3770
+    ],
+    "category_ids": [
+      76
+    ],
+    "tag_ids": [
+      1
+    ],
+    "group_ids": []
+  }
+}

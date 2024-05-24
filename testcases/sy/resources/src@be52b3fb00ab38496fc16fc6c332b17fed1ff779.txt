@@ -1,0 +1,19 @@
+import time
+
+from playwright.sync_api import sync_playwright, expect
+
+def test_sy01():
+    playwright = sync_playwright().start()
+    browser = playwright.chromium.launch(headless=False)
+    context = browser.new_context()
+    context.tracing.start(screenshots=True, snapshots=True, sources=True)
+    page = context.new_page()
+    page.goto("https://ceshiren.com")
+    page.locator("#search-button").click()
+    page.locator("#search-term").fill("Appium")
+    page.keyboard.down("Enter")
+    # time.sleep(3)
+    result = page.locator(".results .item:nth-child(1).topic-title")
+    # expect(result).to_contain_text("App")
+    context.tracing.stop(path="sy.zip")
+    browser.close()

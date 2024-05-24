@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "shiyingdeMBP",
+    "children" : [ {
+      "name" : "2555-MainThread",
+      "children" : [ {
+        "name" : "用户登录-预期成功",
+        "uid" : "c9945997694cad28",
+        "parentUid" : "9d37a5751ef791d017947c04cd1bb6c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715394952782,
+          "stop" : 1715394952782,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      }, {
+        "name" : "test_sy",
+        "uid" : "fd4cc68f09ba7feb",
+        "parentUid" : "9d37a5751ef791d017947c04cd1bb6c3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1715394945305,
+          "stop" : 1715394945305,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户注册-预期成功啦啦啦",
+        "uid" : "bcb8cb591bc8dbda",
+        "parentUid" : "9d37a5751ef791d017947c04cd1bb6c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715394952891,
+          "stop" : 1715394953960,
+          "duration" : 1069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      }, {
+        "name" : "登录预期成功",
+        "uid" : "2914d698ce6b8846",
+        "parentUid" : "9d37a5751ef791d017947c04cd1bb6c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715394947494,
+          "stop" : 1715394952643,
+          "duration" : 5149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      } ],
+      "uid" : "9d37a5751ef791d017947c04cd1bb6c3"
+    } ],
+    "uid" : "1cc6851339f299a7e339efaa5218f6b6"
+  } ],
+  "name" : "timeline"
+}
