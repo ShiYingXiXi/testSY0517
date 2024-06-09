@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 
+set -xe
+
+Time=$(date +"%Y%m%d%H%M%S")
 # test 文件名必须以 test_ 开头，否则会找不到
 TestDir="./testcases"
 ReportDir="./.build/allure-report"
 ResultDir="./.build/allure-results"
-Environment="./.build/environment"
+CurrentResultDir="$ResultDir/$Time"
+Environment="./environment.properties"
 
-/Users/shiying/PycharmProjects/testSY0517/environment.xml
+mkdir -p "$CurrentResultDir"
 
-#set -xe
+python main.py "$TestDir" "$CurrentResultDir"
+cp $Environment "$CurrentResultDir"
 
-python main.py "$TestDir" $ResultDir
-cp /Users/shiying/PycharmProjects/testSY0517/environment.xml ReportDir
-
-#allure generate --clean -o $ReportDir $ResultDir
-allure generate -o $ReportDir $ResultDir
-#allure serve ./.build/allure-report
+allure generate --clean -o $ReportDir "$CurrentResultDir"
+allure serve "$CurrentResultDir"

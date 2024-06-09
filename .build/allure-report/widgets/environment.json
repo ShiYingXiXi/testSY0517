@@ -1,1 +1,22 @@
-[ ]
+[ {
+  "values" : [ "win10" ],
+  "name" : "systemVersion"
+}, {
+  "values" : [ "3.10.0" ],
+  "name" : "pythonVersion"
+}, {
+  "values" : [ "2.14.0" ],
+  "name" : "allureVersion"
+}, {
+  "values" : [ "http://xxx.com" ],
+  "name" : "baseUrl"
+}, {
+  "values" : [ "autotest" ],
+  "name" : "projectName"
+}, {
+  "values" : [ "blues.C" ],
+  "name" : "author"
+}, {
+  "values" : [ "https://blog.csdn.net/weixin_48321392?type=blog" ],
+  "name" : "blog"
+} ]

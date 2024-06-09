@@ -6,12 +6,12 @@
       "name" : "playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.",
       "children" : [ {
         "name" : "test_playWright",
-        "uid" : "bf903c9226bd3c80",
+        "uid" : "de07b2f87c23d1c4",
         "parentUid" : "08141f1045ce5a231935ca9fcf7185b8",
         "status" : "broken",
         "time" : {
-          "start" : 1717667047925,
-          "stop" : 1717667047925,
+          "start" : 1717908266657,
+          "stop" : 1717908266657,
           "duration" : 0
         },
         "flaky" : false,

@@ -9,12 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ab14b9271d0478da",
+      "uid" : "1a4cfffbdac2bd5f",
       "status" : "skipped",
       "statusDetails" : "Skipped: async def function and no async plugin installed (see warnings)",
       "time" : {
-        "start" : 1717667039760,
-        "stop" : 1717667039760,
+        "start" : 1717908266653,
+        "stop" : 1717908266654,
+        "duration" : 1
+      }
+    } ]
+  },
+  "dc81b87cffcf1dff45de633ad03b643a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de07b2f87c23d1c4",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.",
+      "time" : {
+        "start" : 1717908266657,
+        "stop" : 1717908266657,
         "duration" : 0
       }
     } ]
@@ -29,32 +49,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b167ffc3f266d479",
+      "uid" : "1ce29e1c09495b56",
       "status" : "passed",
       "time" : {
-        "start" : 1717667048278,
-        "stop" : 1717667048278,
+        "start" : 1717908267424,
+        "stop" : 1717908267424,
         "duration" : 0
       }
     } ]
   },
-  "dc81b87cffcf1dff45de633ad03b643a" : {
+  "edc126a4bdf151c241bb3b8944e6df5f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bf903c9226bd3c80",
-      "status" : "broken",
-      "statusDetails" : "playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.",
+      "uid" : "4ac8f7855c9b5942",
+      "status" : "passed",
       "time" : {
-        "start" : 1717667047925,
-        "stop" : 1717667047925,
-        "duration" : 0
+        "start" : 1717908251272,
+        "stop" : 1717908258394,
+        "duration" : 7122
       }
     } ]
   },
@@ -68,11 +87,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bfcc8956296f5f54",
+      "uid" : "eaf99866de43177b",
       "status" : "passed",
       "time" : {
-        "start" : 1717667046805,
-        "stop" : 1717667046805,
+        "start" : 1717908265391,
+        "stop" : 1717908265391,
         "duration" : 0
       }
     } ]
@@ -87,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6df993db25a2d0d1",
+      "uid" : "6fdb32b88e275420",
       "status" : "passed",
       "time" : {
-        "start" : 1717667045567,
-        "stop" : 1717667045568,
-        "duration" : 1
+        "start" : 1717908263344,
+        "stop" : 1717908263344,
+        "duration" : 0
       }
     } ]
   },
@@ -106,12 +125,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a55db1aa78881e7d",
+      "uid" : "bfce43ca124101cc",
       "status" : "passed",
       "time" : {
-        "start" : 1717667040597,
-        "stop" : 1717667045434,
-        "duration" : 4837
+        "start" : 1717908258535,
+        "stop" : 1717908263219,
+        "duration" : 4684
       }
     } ]
   },
@@ -125,12 +144,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3284f079ca1b8f56",
+      "uid" : "cf8edfa043ee633b",
       "status" : "skipped",
       "statusDetails" : "Skipped: async def function and no async plugin installed (see warnings)",
       "time" : {
-        "start" : 1717667047939,
-        "stop" : 1717667047939,
+        "start" : 1717908266673,
+        "stop" : 1717908266673,
         "duration" : 0
       }
     } ]
@@ -145,12 +164,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6d9d3dff541602e5",
+      "uid" : "e02e8d39d0b06729",
       "status" : "passed",
       "time" : {
-        "start" : 1717667046913,
-        "stop" : 1717667047909,
-        "duration" : 996
+        "start" : 1717908265510,
+        "stop" : 1717908266635,
+        "duration" : 1125
       }
     } ]
   },
@@ -164,12 +183,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b08bd78236bc5858",
+      "uid" : "2c7cbe62145e6b6",
       "status" : "passed",
       "time" : {
-        "start" : 1717667047941,
-        "stop" : 1717667048273,
-        "duration" : 332
+        "start" : 1717908266676,
+        "stop" : 1717908267420,
+        "duration" : 744
       }
     } ]
   },
@@ -183,12 +202,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "914a868c6ab9acf8",
+      "uid" : "8a9fcb7b9e80e9c2",
       "status" : "passed",
       "time" : {
-        "start" : 1717667045679,
-        "stop" : 1717667046694,
-        "duration" : 1015
+        "start" : 1717908263469,
+        "stop" : 1717908265265,
+        "duration" : 1796
       }
     } ]
   }

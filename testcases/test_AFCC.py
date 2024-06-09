@@ -1,0 +1,52 @@
+import re
+from playwright.sync_api import Page, expect
+
+
+def test_example(page: Page) -> None:
+    page.goto("https://www.tuoyucloud.com/train_test/#/login")
+    page.get_by_placeholder("请输入账号").click()
+    page.get_by_placeholder("请输入账号").fill("sy品牌管理账号")
+    page.get_by_placeholder("请输入登录密码").click()
+    page.get_by_placeholder("请输入登录密码").fill("123456ab")
+    page.get_by_role("button", name="登录").click()
+    page.get_by_text("考核管理").click()
+    page.get_by_role("link", name="考试一览").click()
+    page.get_by_role("link", name="考题库").click()
+    page.get_by_role("button", name=" 新增考题").click()
+    page.get_by_role("radio", name="多选").click()
+    page.get_by_placeholder("请选择考题分类").click()
+    page.get_by_text("分类sy").click()
+    page.get_by_text("子类").click()
+    page.get_by_placeholder("请输入问题内容").click()
+    page.get_by_placeholder("请输入问题内容").fill("题目1")
+    page.locator("form div").filter(has_text="选项A 正确答案 删除选项").first.click()
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").first.fill("1")
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(1).click()
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(1).fill("2")
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(2).click()
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(2).fill("3")
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(3).click()
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(3).fill("4")
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(4).click()
+    page.get_by_placeholder("请勿输入序号，例如1、A、(A) 等。").nth(4).fill("5")
+    page.locator(
+        "div:nth-child(11) > .el-form-item > .el-form-item__content > .el-checkbox > .el-checkbox__input > .el-checkbox__inner").click()
+    page.locator(
+        "div:nth-child(9) > .el-form-item > .el-form-item__content > .el-checkbox > .el-checkbox__input").click()
+    page.locator(".el-checkbox__input").first.click()
+    page.get_by_role("button", name=" 添加选项").click()
+    page.locator("div:nth-child(13) > .el-form-item > .el-form-item__content > .el-input > .el-input__inner").click()
+    page.locator("div:nth-child(13) > .el-form-item > .el-form-item__content > .el-input > .el-input__inner").fill("6")
+    page.get_by_placeholder("针对此题答案的解析说明，在允许的情况下，学员作答完成后可以查看").click()
+    page.get_by_placeholder("针对此题答案的解析说明，在允许的情况下，学员作答完成后可以查看").fill("1")
+    page.get_by_role("button", name="保存").click()
+    page.get_by_role("button", name="编辑").nth(1).click()
+    page.get_by_placeholder("请输入问题内容").click()
+    page.get_by_placeholder("请输入问题内容").fill("题目")
+    page.get_by_role("button", name="保存").click()
+    page.get_by_role("link", name="考试一览").click()
+    page.get_by_role("button", name="编辑").first.click()
+    page.locator("form").filter(
+        has_text="考试信息 考试名称 考试编号 考试类型阶段性测验 终结性考试 考试介绍 考生须知 考试规则 考试形式手机答题 电脑答题 实操考核 面试答辩 提示：实操考核、面试").locator(
+        "input[type=\"text\"]").nth(3).click()
+    page.get_by_role("button", name="更新").click()
