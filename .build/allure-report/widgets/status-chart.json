@@ -1,1 +1,111 @@
-[ ]
+[ {
+  "uid" : "bc5af5a5d628dbfe",
+  "name" : "用户注册-预期成功啦啦啦",
+  "time" : {
+    "start" : 1718015143552,
+    "stop" : 1718015146354,
+    "duration" : 2802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25d96772d6428a2b",
+  "name" : "用户注册-预期成功啦啦啦",
+  "time" : {
+    "start" : 1718015146595,
+    "stop" : 1718015147936,
+    "duration" : 1341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e71a69ff4dc89602",
+  "name" : "test_run",
+  "time" : {
+    "start" : 1718015147972,
+    "stop" : 1718015147972,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a1f16f402c7a8737",
+  "name" : "test_run",
+  "time" : {
+    "start" : 1718015147975,
+    "stop" : 1718015148304,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4944a8b4793dcaa3",
+  "name" : "用户登录-预期成功",
+  "time" : {
+    "start" : 1718015146476,
+    "stop" : 1718015146476,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a46d46a7b0b80ab6",
+  "name" : "登录预期成功",
+  "time" : {
+    "start" : 1718015138364,
+    "stop" : 1718015143268,
+    "duration" : 4904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "888e674705d58521",
+  "name" : "test_example[chromium]",
+  "time" : {
+    "start" : 1718015120483,
+    "stop" : 1718015138193,
+    "duration" : 17710
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a13ee29cb112784c",
+  "name" : "test_playWright",
+  "time" : {
+    "start" : 1718015147959,
+    "stop" : 1718015147960,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4248b5075c5d0c33",
+  "name" : "用户登录-预期成功",
+  "time" : {
+    "start" : 1718015143431,
+    "stop" : 1718015143431,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adacff4e2354907f",
+  "name" : "test_rootDir0",
+  "time" : {
+    "start" : 1718015148307,
+    "stop" : 1718015148307,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "455e8bbe4c3bd2b3",
+  "name" : "test_sy",
+  "time" : {
+    "start" : 1718015147955,
+    "stop" : 1718015147956,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
