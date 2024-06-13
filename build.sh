@@ -17,6 +17,7 @@ python main.py "$TestDir"
 #cp $Environment "$CurrentResultDir"
 cp $Environment "$ResultDir"
 
+
 #allure generate --clean -o $ReportDir "$CurrentResultDir"
 allure generate --clean -o $ReportDir "$ResultDir"
 #allure serve "$CurrentResultDir"
