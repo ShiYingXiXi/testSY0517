@@ -12,7 +12,7 @@ Environment="./environment.properties"
 
 #mkdir -p "$CurrentResultDir"
 #python main.py "$TestDir" "$CurrentResultDir"
-python main.py "$TestDir"
+python main.py "$TestDir" "$ResultDir"
 #cp $Environment "$CurrentResultDir"
 cp $Environment "$ResultDir"
 
