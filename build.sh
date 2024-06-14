@@ -11,7 +11,6 @@ CurrentResultDir="$ResultDir/$Time"
 Environment="./environment.properties"
 
 mkdir -p "$CurrentResultDir"
-python3 -m pip install
 python3 main.py "$TestDir" "$CurrentResultDir"
 
 cp $Environment "$CurrentResultDir"
