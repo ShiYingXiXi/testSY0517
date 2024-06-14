@@ -19,5 +19,5 @@ cp $Environment "$CurrentResultDir"
 
 allure generate --clean -o $ReportDir "$CurrentResultDir"
 #allure generate --clean -o $ReportDir "$ResultDir"
-allure serve "$CurrentResultDir"
+#allure serve "$CurrentResultDir"
 #allure serve "$ResultDir"
