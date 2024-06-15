@@ -1,23 +1,36 @@
 {
-  "uid" : "e71a69ff4dc89602",
+  "uid" : "231e1172b4975ebb",
   "name" : "test_run",
-  "fullName" : "testcases.test_playWright1#test_run",
-  "historyId" : "fb8aaf42b5baf64439520a33c2539c26",
+  "fullName" : "testcases.test_pressure#test_run",
+  "historyId" : "7bbd1aec16562db2c24c976f915dc8d2",
   "time" : {
-    "start" : 1718015147972,
-    "stop" : 1718015147972,
-    "duration" : 0
+    "start" : 1718445028145,
+    "stop" : 1718445028603,
+    "duration" : 458
   },
-  "status" : "skipped",
-  "statusMessage" : "Skipped: async def function and no async plugin installed (see warnings)",
-  "statusTrace" : "('/Users/shiying/PycharmProjects/test/.venv/lib/python3.8/site-packages/_pytest/python.py', 152, 'Skipped: async def function and no async plugin installed (see warnings)')",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,24 +44,9 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "playwright",
-    "time" : {
-      "start" : 1718015119265,
-      "stop" : 1718015119856,
-      "duration" : 591
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,9 +59,9 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718015119263,
-      "stop" : 1718015119263,
-      "duration" : 0
+      "start" : 1718444989346,
+      "stop" : 1718444989347,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,23 +74,8 @@
   }, {
     "name" : "event_loop_policy",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,34 +87,35 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   } ],
-  "afterStages" : [ {
-    "name" : "playwright::0",
-    "time" : {
-      "start" : 1718015148368,
-      "stop" : 1718015148378,
-      "duration" : 10
-    },
+  "testStage" : {
     "status" : "passed",
     "steps" : [ ],
-    "attachments" : [ ],
+    "attachments" : [ {
+      "uid" : "4493791718eaf2ab",
+      "name" : "log",
+      "source" : "4493791718eaf2ab.txt",
+      "type" : "text/plain",
+      "size" : 3059
+    } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : false
-  } ],
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
   "labels" : [ {
     "name" : "parentSuite",
     "value" : "testcases"
   }, {
     "name" : "suite",
-    "value" : "test_playWright1"
+    "value" : "test_pressure"
   }, {
     "name" : "host",
-    "value" : "192.168.5.31"
+    "value" : "192.168.5.41"
   }, {
     "name" : "thread",
-    "value" : "17865-MainThread"
+    "value" : "26232-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -140,7 +124,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcases.test_playWright1"
+    "value" : "testcases.test_pressure"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -155,6 +139,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e71a69ff4dc89602.json",
+  "source" : "231e1172b4975ebb.json",
   "parameterValues" : [ ]
 }

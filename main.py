@@ -18,13 +18,6 @@ if __name__ == '__main__':
     print("====== testDir:" + testcases)
     print("====== resultDir:" + resultDir)
 
-    # main.py
-    import subprocess
-    import sys
-
-    # 调用 pytest 并传递 Allure 参数
-    cmd = ['pytest', '--verbose', '--alluredir=./.build/allure-results/20240614115328', './testcases']
-    subprocess.run(cmd, check=True)
     # 执行测试用例生成测试数据，如果已经存在报告，那就先清空，然后再生成新的测试报告，使用命令： --clean-alluredir
-    # pytest.main(['-vs', testcases, '--clean-alluredir', '--alluredir', resultDir])
+    pytest.main(['-vs', testcases, '--clean-alluredir', '--alluredir', resultDir])
     # pytest.main(['-vs', testcases, '--alluredir', resultDir])

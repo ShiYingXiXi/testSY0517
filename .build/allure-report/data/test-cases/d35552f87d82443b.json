@@ -1,12 +1,12 @@
 {
-  "uid" : "455e8bbe4c3bd2b3",
-  "name" : "test_sy",
-  "fullName" : "testcases.test_case#test_sy",
-  "historyId" : "2d6bb38e16cb8f766745bdd0cb0b3b02",
+  "uid" : "d35552f87d82443b",
+  "name" : "test_run",
+  "fullName" : "testcases.test_playWright1#test_run",
+  "historyId" : "fb8aaf42b5baf64439520a33c2539c26",
   "time" : {
-    "start" : 1718015147955,
-    "stop" : 1718015147956,
-    "duration" : 1
+    "start" : 1718445028142,
+    "stop" : 1718445028142,
+    "duration" : 0
   },
   "status" : "skipped",
   "statusMessage" : "Skipped: async def function and no async plugin installed (see warnings)",
@@ -14,11 +14,41 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "playwright",
+    "time" : {
+      "start" : 1718444989348,
+      "stop" : 1718444989626,
+      "duration" : 278
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +61,8 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,9 +76,9 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718015119263,
-      "stop" : 1718015119263,
-      "duration" : 0
+      "start" : 1718444989346,
+      "stop" : 1718444989347,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,23 +91,8 @@
   }, {
     "name" : "event_loop_policy",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
     },
     "status" : "passed",
@@ -89,19 +104,34 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   } ],
-  "afterStages" : [ ],
+  "afterStages" : [ {
+    "name" : "playwright::0",
+    "time" : {
+      "start" : 1718445028654,
+      "stop" : 1718445028660,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
   "labels" : [ {
     "name" : "parentSuite",
     "value" : "testcases"
   }, {
     "name" : "suite",
-    "value" : "test_case"
+    "value" : "test_playWright1"
   }, {
     "name" : "host",
-    "value" : "192.168.5.31"
+    "value" : "192.168.5.41"
   }, {
     "name" : "thread",
-    "value" : "17865-MainThread"
+    "value" : "26232-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -110,7 +140,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcases.test_case"
+    "value" : "testcases.test_playWright1"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -125,6 +155,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "455e8bbe4c3bd2b3.json",
+  "source" : "d35552f87d82443b.json",
   "parameterValues" : [ ]
 }

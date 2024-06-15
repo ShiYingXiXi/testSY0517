@@ -1,23 +1,38 @@
 {
-  "uid" : "a13ee29cb112784c",
+  "uid" : "31fe9d3808b5d2db",
   "name" : "test_playWright",
   "fullName" : "testcases.test_playWright#test_playWright",
   "historyId" : "dc81b87cffcf1dff45de633ad03b643a",
   "time" : {
-    "start" : 1718015147959,
-    "stop" : 1718015147960,
-    "duration" : 1
+    "start" : 1718445028133,
+    "stop" : 1718445028133,
+    "duration" : 0
   },
   "status" : "broken",
   "statusMessage" : "playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.",
-  "statusTrace" : "def test_playWright():\n>       playwright = sync_playwright().start()\n\ntestcases/test_playWright.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../test/.venv/lib/python3.8/site-packages/playwright/sync_api/_context_manager.py:84: in start\n    return self.__enter__()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <playwright.sync_api._context_manager.PlaywrightContextManager object at 0x7fbf24bdc6d0>\n\n        def __enter__(self) -> SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n>               raise Error(\n                    \"\"\"It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.\"\"\"\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\n../test/.venv/lib/python3.8/site-packages/playwright/sync_api/_context_manager.py:47: Error",
+  "statusTrace" : "def test_playWright():\n>       playwright = sync_playwright().start()\n\ntestcases/test_playWright.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n../test/.venv/lib/python3.8/site-packages/playwright/sync_api/_context_manager.py:84: in start\n    return self.__enter__()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <playwright.sync_api._context_manager.PlaywrightContextManager object at 0x7f9eee8e7be0>\n\n        def __enter__(self) -> SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n>               raise Error(\n                    \"\"\"It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.\"\"\"\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\n../test/.venv/lib/python3.8/site-packages/playwright/sync_api/_context_manager.py:47: Error",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "delete_output_dir",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,8 +46,8 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,9 +61,9 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718015119263,
-      "stop" : 1718015119263,
-      "duration" : 0
+      "start" : 1718444989346,
+      "stop" : 1718444989347,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,23 +76,8 @@
   }, {
     "name" : "event_loop_policy",
     "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1718015119264,
-      "stop" : 1718015119264,
+      "start" : 1718444989347,
+      "stop" : 1718444989347,
       "duration" : 0
     },
     "status" : "passed",
@@ -98,10 +98,10 @@
     "value" : "test_playWright"
   }, {
     "name" : "host",
-    "value" : "192.168.5.31"
+    "value" : "192.168.5.41"
   }, {
     "name" : "thread",
-    "value" : "17865-MainThread"
+    "value" : "26232-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -129,6 +129,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "a13ee29cb112784c.json",
+  "source" : "31fe9d3808b5d2db.json",
   "parameterValues" : [ ]
 }
