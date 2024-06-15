@@ -7,7 +7,7 @@ Time=$(date +"%Y%m%d%H%M%S")
 TestDir="./testcases"
 ReportDir="./.build/allure-report"
 ResultDir="./.build/allure-results"
-CurrentResultDir="$ResultDir/$Time"
+CurrentResultDir="$ResultDir"
 Environment="./environment.properties"
 
 mkdir -p "$CurrentResultDir"
