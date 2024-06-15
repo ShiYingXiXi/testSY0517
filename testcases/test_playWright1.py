@@ -4,7 +4,7 @@ import asyncio
 
 
 async def test_run(playwright):
-    browser = await playwright.chromium.launch(headless=False)
+    browser = await playwright.chromium.launch(headless=True)
     context = await browser.new_context()
     await context.tracing.start(screenshots=True, snapshots=True, sources=True)
     page = await context.new_page()

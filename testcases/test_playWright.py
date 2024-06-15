@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright, expect
 def test_playWright():
     playwright = sync_playwright().start()
     # 打开浏览器，headless 默认是True，
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     page = browser.new_page()
     page.goto("https://ceshiren.com")
     page.locator("#search-button").click()
