@@ -10,6 +10,7 @@ ResultDir="./.build/allure-results"
 CurrentResultDir="$ResultDir"
 Environment="./environment.properties"
 
+rm -rf "$CurrentResultDir"
 mkdir -p "$CurrentResultDir"
 python main.py "$TestDir" "$CurrentResultDir"
 
