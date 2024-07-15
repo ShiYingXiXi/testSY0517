@@ -3,32 +3,15 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.tuoyucloud.com/train_test/#/login\", waiting until \"load\"",
-      "children" : [ {
-        "name" : "test_example[chromium]",
-        "uid" : "ef30138e10e1287f",
-        "parentUid" : "ac3f503002c5db55e961cccea646b837",
-        "status" : "broken",
-        "time" : {
-          "start" : 1718444989963,
-          "stop" : 1718445019969,
-          "duration" : 30006
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'chromium'" ]
-      } ],
-      "uid" : "ac3f503002c5db55e961cccea646b837"
-    }, {
       "name" : "playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.",
       "children" : [ {
         "name" : "test_playWright",
-        "uid" : "31fe9d3808b5d2db",
+        "uid" : "2e2983c9b05667c0",
         "parentUid" : "08141f1045ce5a231935ca9fcf7185b8",
         "status" : "broken",
         "time" : {
-          "start" : 1718445028133,
-          "stop" : 1718445028133,
+          "start" : 1720082789278,
+          "stop" : 1720082789278,
           "duration" : 0
         },
         "flaky" : false,
